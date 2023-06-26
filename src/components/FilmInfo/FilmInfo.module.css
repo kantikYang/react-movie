@@ -1,0 +1,68 @@
+.filmInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px;
+    background: var(--white);
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.imgFilm {
+    border-radius: var(--def-radius);
+    min-width: 400px;
+    min-height: 500px;
+}
+
+.filmTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmName {
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.filmPreview {
+    width: 100%;
+}
+
+.descripTitle {
+    color: var(--text-primary);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.typeInfo {
+    font-weight: 600;
+}
+
+.baseInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.descripPlace {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.descripTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.descripText {
+    font-size: 16px;
+    line-height: 24px;
+}

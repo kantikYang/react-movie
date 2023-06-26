@@ -1,0 +1,80 @@
+.popUpBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s all;
+}
+
+.popUp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    background: var(--white);
+    width: 344px;
+    height: 178px;
+    padding: 24px;
+    transition: 0.5s all;
+    border-radius: 8px;
+}
+
+.popUpTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.popUpClose {
+    cursor: pointer;
+}
+
+.popUpText {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.popUpAllBtn {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 8px;
+}
+
+.popUpBtn {
+    display: flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popUpBtnYes {
+    background: var(--orange);
+    color: var(--white);
+}
+
+.popUpBtnNo {
+    background: var(--white);
+    color: var(--orange);
+}

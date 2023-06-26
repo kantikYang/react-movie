@@ -1,0 +1,39 @@
+.cardEdit {
+    display: flex;
+    height: 20px;
+}
+
+.ticketCount {
+    display: flex;
+    height: 20px;
+    width: 70px;
+    justify-content: space-around;
+
+}
+
+.countBtn {
+
+    width: 20px;
+    padding: 4px;
+
+    border: 0px;
+    border-radius: 4px;
+
+    background-color: #FF5500;
+
+    display: flex;
+    justify-content: center;
+}
+
+.closeBtn {
+    display: block;
+    margin-left: 24px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.countBtn:disabled {
+    background-color: #FFA375;
+}

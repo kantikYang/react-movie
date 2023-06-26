@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --dark-theme: #333;
+  --white: #FFF;
+  --text-primary: #1B1F23;
+  --orange: #F50;
+  --def-radius: 8px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background: #F5F5F5;
+  padding: 24px 32px;
+  flex: 1 1 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* #modal-root {
+  position: absolute;
+} */

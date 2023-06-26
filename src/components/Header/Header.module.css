@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 32px;
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 700;
+    background: var(--dark-theme);
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.totalProd {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 14px;
+
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: var(--def-radius);
+    background: #F50;
+}

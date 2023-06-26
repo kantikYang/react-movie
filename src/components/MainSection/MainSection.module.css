@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    background: #F5F5F5;
+}
+
+.listFilm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}

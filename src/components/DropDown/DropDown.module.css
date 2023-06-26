@@ -1,0 +1,32 @@
+.buttonInput {
+    display: flex;
+    align-items: center;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.listDropDown {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: var(--def-radius);
+    border: 1px solid #E1E3E6;
+}
+
+.listItem {
+    display: flex;
+    padding: 13px;
+    align-items: flex-start;
+    align-self: stretch;
+    cursor: pointer;
+}
+
+.listItem:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
